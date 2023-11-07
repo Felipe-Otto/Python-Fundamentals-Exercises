@@ -1,2 +1,0 @@
-number = int(input("Type any integer number: "))
-print('{:<2} X 1  = {}\n{:<2} X 2  = {}\n{:<2} X 3  = {}\n{:<2} X 4  = {}\n{:<2} X 5  = {}\n{:<2} X 6  = {}\n{:<2} X 7  = {}\n{:<2} X 8  = {}\n{:<2} X 9  = {}\n{:<2} X 10 = {}'.format(number, number, number, number * 2, number, number * 3, number, number * 4, number, number * 5, number, number * 6, number, number * 7, number, number * 8, number, number * 9, number, number * 10))

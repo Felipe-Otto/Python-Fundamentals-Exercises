@@ -1,5 +1,0 @@
-print('-=' * 15 + '\n Analyzing triangles\n' + '-=' * 15)
-segment1 = float(input('Type the value of the first segment: '))
-segment2 = float(input('Type the value of the second segment: '))
-segment3 = float(input('Type the value of the third segment: '))
-print('The segments above can form a triangle!' if (segment1 < segment2 + segment3) and (segment2 < segment1 + segment3) and (segment3 < segment1 + segment2) else ("The segments above can't form a triangle!"))

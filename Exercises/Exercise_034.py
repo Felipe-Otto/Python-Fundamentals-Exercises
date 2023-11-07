@@ -1,0 +1,2 @@
+salary = int(input('Type the value of you salary: $'))
+print('Who received ${} starts to receive ${}'.format(salary, salary + (salary * 0.1)) if salary > 1250 else ('Who received ${} starts to receive ${}'.format(salary, salary + (salary * 0.15))))

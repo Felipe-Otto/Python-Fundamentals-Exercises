@@ -1,2 +1,0 @@
-meters = float(input('Type any measurement into meters: '))
-print('{} meters converted into kilometers: {}.\n{} meters converted into hectometers: {}.\n{} meters converted into dekameters: {}.\n{} meters converted into decimeters: {:.0f}.\n{} meters converted into centimeter: {:.0f}.\n{} meters converted into millimeter: {:.0f}.'.format(meters, meters / 1000, meters, meters / 100, meters, meters / 10, meters, meters * 10, meters, meters * 100, meters, meters * 1000))
